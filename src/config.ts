@@ -10,6 +10,6 @@ export const CACHE_DIR = process.env.TSMCP_CACHE_DIR ?? path.join(os.homedir(), 
 export const LIST_TTL_MS = Number(process.env.TSMCP_LIST_TTL_MS ?? 60 * 60 * 1000);
 /** Minimum gap between any two outbound requests (ms). Default 1s. */
 export const MIN_REQUEST_INTERVAL_MS = Number(process.env.TSMCP_MIN_INTERVAL_MS ?? 1000);
-export const CONTACT = process.env.TSMCP_CONTACT ?? "support@example.invalid";
+export const CONTACT = process.env.TSMCP_CONTACT ?? "support@packwarden.dev";
 export const USER_AGENT = `${BRAND}-thunderstore-mcp/${VERSION} (+${CONTACT})`;
 export const EXPORT_DIR = process.env.TSMCP_EXPORT_DIR ?? path.join(process.cwd(), "exports");
