@@ -78,7 +78,7 @@ The HTTP mode is stateless (POST-only, JSON responses) and has no auth. Put it b
 | `TSMCP_LIST_TTL_MS` | `3600000` (1h) | Package-list freshness |
 | `TSMCP_MIN_INTERVAL_MS` | `1000` | Minimum gap between outbound requests |
 | `TSMCP_EXPORT_DIR` | `./exports` | Where `.r2z` files are written |
-| `TSMCP_CONTACT` | `support@example.invalid` | Contact put in the User-Agent. **Set a real one before you publish.** |
+| `TSMCP_CONTACT` | `support@packwarden.dev` | Contact put in the User-Agent. Override if you run your own copy. |
 | `TSMCP_BRAND` | `PackWarden` | Brand in server name/User-Agent |
 | `TSMCP_BASE_URL` | `https://thunderstore.io` | API base |
 
