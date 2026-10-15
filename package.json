@@ -1,7 +1,7 @@
 {
-  "name": "thunderstore-modpack-mcp",
+  "name": "@packwarden-dev/thunderstore-mcp",
   "version": "0.1.0",
-  "description": "MCP server for Thunderstore mod packs: search, dependency resolution, pack health, r2modman profile export",
+  "description": "PackWarden: MCP server for Thunderstore mod packs (search, dependency resolution, pack health, r2modman export). Not affiliated with Thunderstore.",
   "main": "dist/main.js",
   "directories": {
     "test": "test"
@@ -29,15 +29,35 @@
   },
   "type": "module",
   "bin": {
-    "thunderstore-modpack-mcp": "dist/main.js"
+    "packwarden-thunderstore-mcp": "dist/main.js"
   },
   "files": [
     "dist",
     "README.md",
     "LICENSE"
   ],
-  "private": true,
+  "private": false,
   "engines": {
     "node": ">=18.17"
+  },
+  "mcpName": "io.github.packwarden-dev/packwarden",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/packwarden-dev/packwarden.git"
+  },
+  "homepage": "https://github.com/packwarden-dev/packwarden",
+  "bugs": {
+    "email": "support@packwarden.dev"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "thunderstore",
+    "mods",
+    "r2modman",
+    "modpack"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
